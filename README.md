@@ -1,5 +1,8 @@
 # quickstart-web-npm-js
 
+Site is live at https://nywooz.github.io/DeepAR/
+
+
 - Go to https://developer.deepar.ai
   - Sign up
   - Create a project and a Web app
