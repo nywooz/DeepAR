@@ -1,9 +1,12 @@
 {
   "name": "my-project",
-  "source": "src/index.html",
+  "source": [
+    "public/index.html"
+  ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel public/index.html",
+    "prebuild": "rm -rf .parcel-cache",
     "build": "parcel build"
   },
   "devDependencies": {

@@ -14,11 +14,13 @@
 		<canvas width="640" height="360" id="deepar-canvas"></canvas>
 		<!-- Initialize DeepAR and load AR effect/filter -->
 		<script>
-			(async function () {
+			const effects = {
+				aviator: 'https://cdn.jsdelivr.net/npm/deepar/effects/aviators',
+			}(async function () {
 				const deepAR = await deepar.initialize({
 					licenseKey: 'your_license_key_here',
 					canvas: document.getElementById('deepar-canvas'),
-					effect: 'https://cdn.jsdelivr.net/npm/deepar/effects/aviators',
+					effect: effects.aviator,
 				});
 			})();
 		</script>
