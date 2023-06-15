@@ -38,6 +38,8 @@ console.log('Deepar version: ' + deepar.version);
 
 	// Initialize DeepAR with an effect file.
 	const deepAR = await deepar.initialize({
+		apiKey:
+			'a3cbbe1ce2b35d43453ef18358a422c1cd9125a21cdfa4d1943cc4c0c5bf57913e03a79e8246936f',
 		licenseKey: 'https://nywooz.github.io/DeepAR/',
 		canvas: canvas,
 		rootPath: './deepar-resources', // See webpack.config.js and package.json build script.
